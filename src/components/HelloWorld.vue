@@ -12,10 +12,17 @@
         <p class="t3">ReadOn is an amazing "Read to Earn" program that combines SOCIAL-FI AND GAME-FI.Get back into the habit of reading and get addicted, just like playing a game.</p>
         <el-row class="mb-4"
                 style="margin-top: 3em;">
+
           <el-button round
                      class="buttom"
-                     style="color:white;background: #5961ec;">Join Discord</el-button>
-          <el-button round>White Paper</el-button>
+                     style="color:white;background: #5961ec;">
+            <a href="https://discord.gg/NCZG4nvrYT"
+               target="_blank">Join Discord</a>
+          </el-button>
+
+          <el-button round><a href="https://whitepaper.readon.me"
+               target="_blank">White Paper</a></el-button>
+
         </el-row>
       </div>
     </div>
@@ -57,10 +64,12 @@
       <div class="foot-main">
         <p>To bring the old and classic "reading" back to our life and to distribute high-quality, genuine and valuable thoughts to the world.</p>
         <div class="box">
-          <img class="b-title"
-               src="../assets/imgs/twitter.png">
-          <img class="b-title"
-               src="../assets/imgs/discord.png">
+          <a href="https://twitter.com/ReadOnMe3"
+             target="_blank"> <img class="b-title"
+                 src="../assets/imgs/twitter.png"></a>
+          <a href="https://discord.gg/NCZG4nvrYT"
+             target="_blank"> <img class="b-title"
+                 src="../assets/imgs/discord.png"></a>
           <img class="b-title"
                src="../assets/imgs/telegram.png">
           <img class="b-title"
@@ -85,6 +94,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+a {
+  text-decoration: none;
+}
 /* header*/
 .header {
   background-color: black;
@@ -219,5 +231,49 @@ export default {
   height: 1px;
   border-top: 1px solid black;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .t2 {
+    font-size: 2em;
+  }
+  .t3 {
+    font-size: 1em;
+  }
+
+  .sec:nth-child(even) {
+    text-align: left;
+    padding: 3em 1em;
+  }
+  .sec:nth-child(odd) {
+    text-align: right;
+    padding: 3em 1em;
+  }
+  .footer {
+    margin: 0 auto;
+    width: 95%;
+    padding: 0;
+  }
+  .box {
+    display: flex;
+    width: 55%;
+  }
+  .b-title {
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-right: 1em;
+  }
+  .b-title :nth-last-child(3) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 850px) {
+  .box {
+    display: flex;
+    width: 66%;
+  }
 }
 </style>
