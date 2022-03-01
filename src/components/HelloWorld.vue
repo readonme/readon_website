@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="header">
-      <span class="title">ReadOn</span>
+      <span class="title">ReadON</span>
       <span class="overview">overview</span>
     </div>
     <div class="sec sec1">
@@ -9,19 +9,20 @@
         <p class="t2 font-point"
            style="color: rgba(255, 52, 0, 1);">ReadON</p>
         <p class="t2">Addicted to Reading</p>
-        <p class="t3">ReadOn is an amazing "Read to Earn" program that combines SOCIAL-FI AND GAME-FI.Get back into the habit of reading and get addicted, just like playing a game.</p>
+        <p class="t3">ReadON is an amazing "Read to Earn" program that combines SOCIAL-FI AND GAME-FI.Get back into the habit of reading and get addicted, just like playing a game.</p>
         <el-row class="mb-4"
                 style="margin-top: 3em;">
-
           <el-button round
                      class="buttom"
                      style="color:white;background: #5961ec;">
             <a href="https://discord.gg/NCZG4nvrYT"
-               target="_blank">Join Discord</a>
+               target="_blank"
+               style="color: white;">Join Discord</a>
           </el-button>
 
           <el-button round><a href="https://whitepaper.readon.me"
-               target="_blank">White Paper</a></el-button>
+               target="_blank"
+               style="color: black;">White Paper</a></el-button>
 
         </el-row>
       </div>
@@ -54,7 +55,7 @@
         <p class="t2">Feel the White Heat of </p>
         <p class="t2 font-point"
            style="color:rgba(0,177,255,1);">Web3</p>
-        <p class="t3">Wow, ReadOn is a web3 project, it will take you into web3, don't miss it.Start by following our community and you will be involved in the governance of an exciting program!
+        <p class="t3">Wow, ReadON is a web3 project, it will take you into web3, don't miss it.Start by following our community and you will be involved in the governance of an exciting program!
         </p>
 
       </div>
@@ -62,7 +63,7 @@
 
     <div class="footer">
       <div class="foot-main">
-        <p>To bring the old and classic "reading" back to our life and to distribute high-quality, genuine and valuable thoughts to the world.</p>
+        <p> Make you addicted to Reading like a Game.</p>
         <div class="box">
           <a href="https://twitter.com/ReadOnMe3"
              target="_blank"> <img class="b-title"
@@ -116,6 +117,7 @@ a {
   text-align: right;
   padding-right: 10%;
   font-size: 1em;
+  font-weight: bold;
 }
 
 /*section*/
