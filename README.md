@@ -1,5 +1,7 @@
 # readon_website
 
+This is the frontend for our project info page.
+
 ## Project setup
 ```
 yarn install
