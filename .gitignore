@@ -51,6 +51,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+# local deploy
+deploy.sh
+
 # Optional eslint cache
 .eslintcache
 
@@ -83,6 +86,7 @@ typings/
 .nuxt
 dist
 dist.zip
+readon_dist.tar.gz
 
 # Gatsby files
 .cache/
