@@ -108,3 +108,5 @@ readon_dist.tar.gz
 
 # TernJS port file
 .tern-port
+
+.DS_Store
