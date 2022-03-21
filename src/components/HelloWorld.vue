@@ -6,29 +6,25 @@
     </div>
     <div class="sec sec1">
       <div class="content">
-        <p class="t2 font-point" style="color: rgba(255, 52, 0, 1)">ReadON</p>
+        <p class="t2 font-point"
+           style="color: rgba(255, 52, 0, 1)">ReadON</p>
         <p class="t2">Addicted to Reading</p>
-        <p class="t3">
-          ReadON is an amazing "Read to Earn" program that combines SOCIAL-FI
-          AND GAME-FI.Get back into the habit of reading and get addicted, just
-          like playing a game.
-        </p>
-        <el-row class="mb-4" style="margin-top: 3em">
-          <el-button
-            round
-            class="buttom"
-            style="color: white; background: #5961ec"
-          >
-            <a href="https://discord.gg/NCZG4nvrYT" target="_blank"
-              >Join Discord</a
-            >
+ 
+        <p class="t3">ReadON is an amazing "Read to Earn" program that combines SOCIAL-FI AND GAME-FI.Get back into the habit of reading and get addicted, just like playing a game.</p>
+        <el-row class="mb-4"
+                style="margin-top: 3em;">
+          <el-button round
+                     class="buttom"
+                     style="color:white;background: #5961ec;">
+            <a href="https://discord.gg/NCZG4nvrYT"
+               target="_blank"
+               style="color: white;">Join Discord</a> 
           </el-button>
 
-          <el-button round
-            ><a href="https://whitepaper.readon.me" target="_blank"
-              >White Paper</a
-            ></el-button
-          >
+          <el-button round><a href="https://whitepaper.readon.me"
+               target="_blank"
+               style="color: black;">White Paper</a></el-button>
+
         </el-row>
       </div>
     </div>
@@ -37,7 +33,8 @@
       <div class="content">
         <p class="t2">
           Mint Your
-          <span class="font-point" style="color: rgba(255, 52, 0, 1)">
+          <span class="font-point"
+                style="color: rgba(255, 52, 0, 1)">
             Nucleus
           </span>
         </p>
@@ -54,7 +51,8 @@
         <p class="t2">Unleashing Your Power</p>
         <p class="t2">
           Of
-          <span class="font-point" style="color: rgba(255, 179, 0, 1)">
+          <span class="font-point"
+                style="color: rgba(255, 179, 0, 1)">
             Fission
           </span>
         </p>
@@ -68,124 +66,165 @@
 
     <div class="sec sec4">
       <div class="content">
-        <p class="t2">Feel the White Heat of</p>
-        <p class="t2 font-point" style="color: rgba(0, 177, 255, 1)">Web3</p>
+        <p class="t2">Feel the White Heat of </p>
+        <p class="t2 font-point"
+           style="color:rgba(0,177,255,1);">Web3</p>
         <p class="t3">
           Wow, ReadON is a web3 project, it will take you into web3, don't miss
           it.Start by following our community and you will be involved in the
           governance of an exciting program!
+
         </p>
       </div>
     </div>
     <div class="sec5">
       <div class="content">
-        <p class="t2" style="color: rgba(9,238,255,1);">Team</p>
+        <p class="t2"
+           style="color: rgba(9,238,255,1);">Team</p>
         <p class="t3">Meet some of the partners working on ReadON.</p>
         <el-row :gutter="15">
-          <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h1.png" />
-            <p class="name" style="color: #50ccb4;">Troy</p>
-            <p class="role" style="background: #50ccb4;">Co-Founder</p>
-            <p class="">
-              Graduated from Carnegie Mellon University with a degree in
-              Computer Science. As a CTO with successful experience of NFT
-              project.
-            </p>
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h1.png" />
+              <p class="name"
+                 style="color: #50ccb4;">Troy</p>
+              <p class="role"
+                 style="background: #50ccb4;">Co-Founder</p>
+              <p class="">
+                Graduated from Carnegie Mellon University with a degree in
+                Computer Science. As a CTO with successful experience of NFT
+                project.
+              </p>
             </div>
           </el-col>
-            <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h2.png" />
-            <p class="name" style="color: #ff7f42;">Neo</p>
-            <p class="role" style="background: #ff7f42;">Co-Founder</p>
-            <p class="">
-              10 years of experience in internet media. The last project
-              successfully landed in Indonesia, Thailand, and Saudi Arabia.
-              Product Director of the Media-Game product that had 10 million
-              DAUs.
-            </p>
-            </div>
-          </el-col>
-
-          <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h3.png" />
-            <p class="name" style="color: #b4ff67;">Daniel Olano</p>
-            <p class="role" style="background: #b4ff67;">Ambassador</p>
-            <p class="">
-              Polkadot Senior Ambassador. 5 years + Web3 experience, founder of
-              virto.network project.
-            </p>
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h2.png" />
+              <p class="name"
+                 style="color: #ff7f42;">Neo</p>
+              <p class="role"
+                 style="background: #ff7f42;">Co-Founder</p>
+              <p class="">
+                10 years of experience in internet media. The last project
+                successfully landed in Indonesia, Thailand, and Saudi Arabia.
+                Product Director of the Media-Game product that had 10 million
+                DAUs.
+              </p>
             </div>
           </el-col>
 
-           <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h4.png" />
-            <p class="name" style="color: #8fc764;">Kevin Diego</p>
-            <p class="role" style="background: #8fc764;">Tech Partner</p>
-            <p class="">
-              Head of development for a 30 million DAU product from 0 to 1.
-              Experience in the development of multiple Play to Earn products
-              with more than one million DAU.
-            </p>
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h3.png" />
+              <p class="name"
+                 style="color: #b4ff67;">Daniel Olano</p>
+              <p class="role"
+                 style="background: #b4ff67;">Ambassador</p>
+              <p class="">
+                Polkadot Senior Ambassador. 5 years + Web3 experience, founder of
+                virto.network project.
+              </p>
             </div>
           </el-col>
-       
-           <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h5.png" />
-            <p class="name" style="color: #737c7e;">Fairy</p>
-            <p class="role" style="background: #737c7e;">Product Partner</p>
-            <p class="">
-              Former IBM data intelligence engineer. 5 years experience in
-              content and ad distribution algorithms for millions DAU APP.
-            </p></div></el-col  >
 
-           <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h6.png" />
-            <p class="name" style="color: #88a2fe;">Yuki Kato</p>
-            <p class="role" style="background: #88a2fe;">UI Designer</p>
-            <p class="">
-              Her impressive artwork of user avatar drawing will be distributed
-              to ReadON users by airdrop.
-            </p></div></el-col >
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h4.png" />
+              <p class="name"
+                 style="color: #8fc764;">Kevin Diego</p>
+              <p class="role"
+                 style="background: #8fc764;">Tech Partner</p>
+              <p class="">
+                Head of development for a 30 million DAU product from 0 to 1.
+                Experience in the development of multiple Play to Earn products
+                with more than one million DAU.
+              </p>
+            </div>
+          </el-col>
 
-            <el-col :span="6" :xs="12"> 
-            <div class="teambox" >
-            <img class="headimg" src="../assets/imgs/h7.png" />
-            <p class="name" style="color: #02b6b9;">Danielle</p>
-            <p class="role" style="background: #02b6b9;">Front End Engineer</p>
-            <p class="">
-              Former front end engineer of bytedance with 8 years experience.
-            </p></div></el-col >
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h5.png" />
+              <p class="name"
+                 style="color: #737c7e;">Fairy</p>
+              <p class="role"
+                 style="background: #737c7e;">Product Partner</p>
+              <p class="">
+                Former IBM data intelligence engineer. 5 years experience in
+                content and ad distribution algorithms for millions DAU APP.
+              </p>
+            </div>
+          </el-col>
+
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h6.png" />
+              <p class="name"
+                 style="color: #88a2fe;">Yuki Kato</p>
+              <p class="role"
+                 style="background: #88a2fe;">UI Designer</p>
+              <p class="">
+                Her impressive artwork of user avatar drawing will be distributed
+                to ReadON users by airdrop.
+              </p>
+            </div>
+          </el-col>
+
+          <el-col :span="6"
+                  :xs="12">
+            <div class="teambox">
+              <img class="headimg"
+                   src="../assets/imgs/h7.png" />
+              <p class="name"
+                 style="color: #02b6b9;">Danielle</p>
+              <p class="role"
+                 style="background: #02b6b9;">Front End Engineer</p>
+              <p class="">
+                Former front end engineer of bytedance with 8 years experience.
+              </p>
+            </div>
+          </el-col>
         </el-row>
       </div>
     </div>
 
     <div class="footer">
       <div class="foot-main">
-        <p>
-          To bring the old and classic "reading" back to our life and to
-          distribute high-quality, genuine and valuable thoughts to the world.
-        </p>
+
+        <p> Make you addicted to Reading like a Game.</p>
+
         <div class="box">
-          <a href="https://twitter.com/ReadOnMe3" target="_blank">
-            <img class="b-title" src="../assets/imgs/twitter.png"
-          /></a>
-          <a href="https://discord.gg/NCZG4nvrYT" target="_blank">
-            <img class="b-title" src="../assets/imgs/discord.png"
-          /></a>
-          <img class="b-title" src="../assets/imgs/telegram.png" />
-          <img class="b-title" src="../assets/imgs/medium.png" />
+          <a href="https://twitter.com/ReadOnMe3"
+             target="_blank">
+            <img class="b-title"
+                 src="../assets/imgs/twitter.png" /></a>
+          <a href="https://discord.gg/NCZG4nvrYT"
+             target="_blank">
+            <img class="b-title"
+                 src="../assets/imgs/discord.png" /></a>
+          <img class="b-title"
+               src="../assets/imgs/telegram.png" />
+          <img class="b-title"
+               src="../assets/imgs/medium.png" />
         </div>
 
         <div class="line_02"></div>
         <p>Copyright 2022. All Right Reserved</p>
       </div>
-      <img class="foot-shadow" src="../assets/imgs/shadow.png" />
+      <img class="foot-shadow"
+           src="../assets/imgs/shadow.png" />
     </div>
   </div>
 </template>
@@ -284,41 +323,41 @@ a {
   padding-right: 10%;
 }
 
-.sec5{
+.sec5 {
   margin-top: 2em;
-   padding: 0 10%;
+  padding: 0 10%;
 }
-.sec5 p{
-  color:white;
+.sec5 p {
+  color: white;
 }
-.teambox{
-    border: 2px solid white;
-    border-radius: 1.5em;
-    padding: 1.5em; 
-    height: 25em;
-    margin: 1em auto;
-    font-size: 0.8em;
+.teambox {
+  border: 2px solid white;
+  border-radius: 1.5em;
+  padding: 1.5em;
+  height: 25em;
+  margin: 1em auto;
+  font-size: 0.8em;
 }
 
-.name{
+.name {
   text-align: center;
-    color:white;
-   font-size: 1.5em;
-    font-weight: 900;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 900;
 }
-.role{
-    color:white;
-    width: 70%;
-    text-align: center;
-    margin: 1em auto;
-    font-size: 1.2em;
-    font-weight: 900;
-    padding: 0.5em;
-    border-radius: 2em;
+.role {
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin: 1em auto;
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 0.5em;
+  border-radius: 2em;
 }
-.headimg{
-   width: 50%; 
-    margin-left: 25%; 
+.headimg {
+  width: 50%;
+  margin-left: 25%;
 }
 
 /*footer */
@@ -378,8 +417,8 @@ a {
   .sec {
     background-size: cover;
   }
-  .teambox{
-        padding: 0.5em;
+  .teambox {
+    padding: 0.5em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -388,7 +427,7 @@ a {
   }
   .t3 {
     font-size: 1em;
-  } 
+  }
   .sec:nth-child(even) {
     text-align: left;
     padding: 3em 1em;
@@ -419,16 +458,13 @@ a {
   .title {
     padding-left: 5%;
   }
-  .role{
+  .role {
     font-size: 1em;
     width: 80%;
   }
-  .sec5{ 
-    padding: 0 5%; 
+  .sec5 {
+    padding: 0 5%;
   }
-
- 
-  
 }
 
 @media screen and (min-width: 401px) and (max-width: 850px) {
