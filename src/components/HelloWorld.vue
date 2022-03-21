@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="header">
-      <span class="title">ReadOn</span>
+      <span class="title">ReadON</span>
       <span class="overview">overview</span>
     </div>
     <div class="sec sec1">
@@ -9,7 +9,7 @@
         <p class="t2 font-point" style="color: rgba(255, 52, 0, 1)">ReadON</p>
         <p class="t2">Addicted to Reading</p>
         <p class="t3">
-          ReadOn is an amazing "Read to Earn" program that combines SOCIAL-FI
+          ReadON is an amazing "Read to Earn" program that combines SOCIAL-FI
           AND GAME-FI.Get back into the habit of reading and get addicted, just
           like playing a game.
         </p>
@@ -71,7 +71,7 @@
         <p class="t2">Feel the White Heat of</p>
         <p class="t2 font-point" style="color: rgba(0, 177, 255, 1)">Web3</p>
         <p class="t3">
-          Wow, ReadOn is a web3 project, it will take you into web3, don't miss
+          Wow, ReadON is a web3 project, it will take you into web3, don't miss
           it.Start by following our community and you will be involved in the
           governance of an exciting program!
         </p>
