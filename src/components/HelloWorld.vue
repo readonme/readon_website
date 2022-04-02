@@ -39,10 +39,10 @@
         </el-row>
       </div>
     </div>
- 
+
     <div class="sec1-1">
       <iframe
-        width="100%" 
+        width="100%"
         height="100%"
         src="https://www.youtube.com/embed/b944n_sXrGk"
         title="ReadON Introduction"
@@ -51,7 +51,6 @@
         allowfullscreen
       ></iframe>
     </div>
-    
 
     <div class="sec sec2 sec-right">
       <div class="content">
@@ -197,13 +196,12 @@
 
         <div class="box">
           <a href="https://twitter.com/ReadOnMe3" target="_blank">
-            <img class="b-title" src="../assets/imgs/twitter.png"
-          /></a>
+            <img class="b-title" src="../assets/imgs/twitter.png"/></a>
           <a href="https://discord.gg/NCZG4nvrYT" target="_blank">
-            <img class="b-title" src="../assets/imgs/discord.png"
-          /></a>
+            <img class="b-title" src="../assets/imgs/discord.png"/></a>
           <img class="b-title" src="../assets/imgs/telegram.png" />
-          <img class="b-title" src="../assets/imgs/medium.png" />
+          <a href="https://readonofficial.medium.com/" target="_blank"
+            ><img class="b-title" src="../assets/imgs/medium.png"/></a>
         </div>
 
         <div class="line_02"></div>
@@ -273,30 +271,29 @@ a {
 .sec {
   padding-top: 7em;
   padding-bottom: 7em;
-  background: #000 ;   
+  background: #000;
 }
 .sec1 {
-  background: #000 url(../assets/imgs/s1.png) no-repeat center top ; 
-    background-size:70%; 
+  background: #000 url(../assets/imgs/s1.png) no-repeat center top;
+  background-size: 70%;
 }
 .sec2 {
   background: #000 url(../assets/imgs/s2.png) no-repeat center top;
-    background-size:60%; 
-
+  background-size: 60%;
 }
 .sec3 {
   background: #000 url(../assets/imgs/s3.png) no-repeat center top;
-   background-size:70%; 
+  background-size: 70%;
 }
 .sec4 {
   background: #000 url(../assets/imgs/s4.png) no-repeat center top;
-   background-size:70%; 
+  background-size: 70%;
 }
 
-.sec1-1{
-   margin: 0 auto;
-    width: 50em;
-    height: 30em;
+.sec1-1 {
+  margin: 0 auto;
+  width: 50em;
+  height: 30em;
 }
 
 .contect {
@@ -412,7 +409,7 @@ a {
   .teambox {
     padding: 0.5em;
   }
-  .sec1-1{
+  .sec1-1 {
     width: 80%;
     height: 20em;
   }
@@ -461,7 +458,7 @@ a {
   .sec5 {
     padding: 0 5%;
   }
-   .sec1-1{
+  .sec1-1 {
     width: 80%;
     height: 12em;
   }
