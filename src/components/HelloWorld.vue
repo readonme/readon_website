@@ -26,16 +26,9 @@
               style="color: white"
               >Join Discord</a
             >
-          </el-button>
-
-          <el-button round
-            ><a
-              href="https://whitepaper.readon.me"
-              target="_blank"
-              style="color: black"
-              >White Paper</a
-            ></el-button
-          >
+          </el-button> 
+          <el-button round @click="open" ><a   style="color: black" >White Paper</a  ></el-button  >
+ 
         </el-row>
       </div>
     </div>
@@ -193,15 +186,26 @@
     <div class="footer">
       <div class="foot-main">
         <p>Make you addicted to Reading like a Game.</p>
-
         <div class="box">
           <a href="https://twitter.com/ReadOnMe3" target="_blank">
-            <img class="b-title" src="../assets/imgs/twitter.png"/></a>
+            <img class="b-title" src="../assets/imgs/twitter.png"
+          /></a>
           <a href="https://discord.gg/NCZG4nvrYT" target="_blank">
-            <img class="b-title" src="../assets/imgs/discord.png"/></a>
-          <img class="b-title" src="../assets/imgs/telegram.png" />
+            <img class="b-title" src="../assets/imgs/discord.png"
+          /></a>
+          <a href="https://t.me/ReadONCommunity" target="_blank">
+            <img class="b-title" src="../assets/imgs/telegram.png"
+          /></a>
           <a href="https://readonofficial.medium.com/" target="_blank"
-            ><img class="b-title" src="../assets/imgs/medium.png"/></a>
+            ><img class="b-title" src="../assets/imgs/medium.png"
+          /></a>
+        </div>
+
+        <div class="media">
+          <a href="mailto:hello@readon.me" target="_blank">
+            <img src="../assets/imgs/mail.png" />
+            hello@readon.me
+          </a>
         </div>
 
         <div class="line_02"></div>
@@ -212,10 +216,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
-};
+<script   setup>
+ import { ElNotification } from 'element-plus'
+const open = () => {
+  ElNotification({ 
+    title: 'A kindly Reminder',
+    dangerouslyUseHTMLString: true,
+    message: 'Our whitepaper will be updated soon. If you are interested in ReadON, please email <strong>hello@readon.me</strong>',
+  })
+}
 </script>
  
 <style scoped>
@@ -400,6 +409,26 @@ a {
   height: 1px;
   border-top: 1px solid black;
   text-align: center;
+}
+
+.media {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.media a {
+  margin: 1em auto;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.media a img {
+  height: 2em;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 900px) {
